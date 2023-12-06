@@ -1,0 +1,118 @@
+<!--https://www.youtube.com/watch?v=P6YQUAWJbwc-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+
+</head>
+<body>
+  <section class="sub-header"> 
+    <nav>
+      <a href="index.html"><img src="images/logo.png" ></a>
+      <div class="nav-links" id="navLinks">
+        <i class="lni lni-close" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTANT</a></li>
+        </ul>
+      </div>
+      <i class="lni lni-menu" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs for 2021</h1>
+
+  </section>
+
+<!--Blog page content-->
+<section class="blog-content">
+  <div class="row">
+    <div class="blog-left">
+    <img src="images/certificate.jpg">
+    <h2>Our Certificate & Online Programs for 2021</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab facere architecto ipsum repellat, aut ducimus deserunt corporis? Hic eaque nostrum, sed ducimus dicta saepe necessitatibus minus excepturi ut animi!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi dolorem nihil, sint optio eum repudiandae laborum est ipsam nesciunt architecto voluptatem suscipit magni beatae cum numquam quia dolor impedit nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quam quis magni voluptates quasi amet cupiditate! Officia, placeat ullam temporibus est provident impedit molestiae dicta pariatur ea possimus et optio!</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolore alias modi minima itaque quam dignissimos quasi consequatur aspernatur voluptates, consequuntur rem aliquam reiciendis magni, cupiditate necessitatibus distinctio. Placeat, hic! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga a molestiae, corporis rem fugit tempora odit, eos culpa commodi atque laudantium quidem! Consequuntur tenetur eaque repudiandae laboriosam? Vitae, sequi quasi.</p>
+
+    <div class="comment-box">
+      <h3>Leave a comment</h3>
+      <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="text" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+      </form>
+    </div>
+  </div>
+    <div class="blog-right">
+      <h3>Post Categories</h3>
+      <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>Data Science</span>
+        <span>28</span>
+      </div>
+      <div>
+        <span>Machine Learning</span>
+        <span>15</span>
+      </div>
+      <div>
+        <span>Journalism</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>AutoCAD</span>
+        <span>42</span>
+      </div>
+      <div>
+        <span>Computer Science</span>
+        <span>37</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima id temporibus. <br>Libero quo, sed veritatis facilis tenetur suscipit reprehenderit dolore dignissimos quia tempora velit, quasi quaerat mollitia earum nobis!
+  </p>
+  <div class="icons">
+    <i class="lni lni-facebook-fill"></i>
+    <i class="lni lni-twitter-fill"></i>
+    <i class="lni lni-instagram-fill"></i>
+    <i class="lni lni-linkedin"></i>
+  </div>
+</section>
+
+
+
+
+
+<!-- Java script for Toggle Menu-->
+  <script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+
+
+  </script>
+</body>
+</html>
